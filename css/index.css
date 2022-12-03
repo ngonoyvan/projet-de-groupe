@@ -1,0 +1,286 @@
+.navbar{
+  position: relative;
+  z-index: 10000;
+  width: 100%;
+  box-shadow: 2px -2px 20px 0px;
+}
+.nav-item .active{
+    font-size: 20px;
+    font-weight: bold;
+}
+.btn-light img {
+ border-radius: 25px;
+ object-fit: cover;
+
+}
+.bot h1 {
+    font-size: 75px;
+    font-size: bold;
+    font-family: fantasy;
+    color: rgb(19, 17, 17);
+    
+}
+.bot h1 span{
+    color: #062450;
+    position: relative;
+    z-index: 3;
+}
+.bot h1 span::after{
+    content: " ";
+    width: 238px;
+    height: 20px;
+    position: absolute;
+    background: center center / cover url(/images/4_1398651289579028509\ -\ Copie\ -\ Copie\ -\ Copie.webp);
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+}
+.container {
+    position: relative;
+    z-index: 1;
+    margin-top: 20px;
+}
+.container .btn-secondary{
+    color: #1852a8;
+    font-weight: bold;
+    background: gainsboro;
+    border: none;
+    height: 70px;
+    margin-top: 20px;
+    border-radius: 25px;
+}
+.container .btn-secondary:hover{
+  color: aliceblue;
+  background: #1852a8;
+}
+.container iframe{
+    height: 90px;
+    width: 90px;
+    border-radius: 110px;
+    object-fit: cover;
+}
+.container .text{
+    font-size: 40px;
+    margin-top: 25px;
+    font-weight: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.container .t2{
+    font-size: 18px;
+    font-weight: bold;
+}
+.container .img img{
+    height: 500px;
+    object-fit: cover;
+    border-radius: 10px;
+    filter: brightness(55%);
+}
+.container .file {
+    border: 2px solid;
+}
+.bab{
+   position: absolute;
+   background: #ffffff;
+   top: 50%;
+   left: 25%;
+   z-index: 3;
+   border-radius: 20px;
+   width: 70%;
+   box-shadow: 0px 1px 8px 0px; 
+}
+    
+.carousel-inner img {
+   margin-top: 40px;
+   height: 220px;
+   object-fit: cover;
+   border-radius: 20px;
+}
+#carouselExampleControls {
+     height: 30px;
+     margin-top: 15px;
+}
+.carousel-item img{
+    filter: brightness(60%);
+    animation: yvan 3s infinite alternate;
+}
+.ba5-tof .tof img{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    border-radius: 25px;
+    filter: brightness(50%);
+    animation: yvan 3s infinite alternate;
+}
+.unt h1 {
+    font-size: 45px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif ;
+    color: black;
+}
+.po{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     margin: 15px;
+}
+.po .p1{
+    font-weight: bold;
+    color: black;
+}
+.po .visu{
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     margin: auto;
+}
+.visu img{
+    width: 100%;
+    height: 80vh;
+    object-fit: cover;
+    border-radius: 25px;
+    filter: brightness(60%);
+    animation: yvan 3s infinite alternate;
+}
+.visu h3 {
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
+}
+
+.visu span {
+    font-weight: bold;
+    font-size: 15px;
+    color: rgb(10, 153, 93);
+}
+
+.visu .bi-star-fill::before{
+    content: "4.5";
+     color:black ;
+
+}
+.visu .bi-star-fill {
+    margin-left: 50px;
+}
+
+.unt .bar{
+    display: flex;
+    justify-content: space-between;
+}
+.unt .bar .t1{
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.unt .bar .t1:hover{
+    box-shadow: 0px 0px 10px 0px;
+    transition: 0.5s;
+}
+
+.unt .bar h5{
+    font-weight: bold;
+}
+.logo {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0;
+}
+.logo img{
+    object-fit: cover;
+    width: 100%;
+    margin: 50px 10px;
+    animation: yvan 5s infinite alternate;
+}
+.k2 .carousel-inner img{
+    height: 400px;
+    object-fit: cover;
+    animation: yvan 5s infinite alternate;
+}
+#carouselExampleSlidesOnly{
+    margin-bottom: 20px;
+}
+.nid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pic img {
+    width: 150px;
+    height: 150px;
+    margin:10px 0px;
+    border-radius: 50%;
+    object-fit: cover;
+    padding:30px;
+    animation: yvan 3s infinite alternate;
+
+}
+.pic-tic {
+    display: flex;
+    flex-direction: row;
+}
+.pic-tic .ro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+.pic-tic .ro h4{
+    font-weight: bold;
+    color: black;
+}
+.pic-tic .ro span{
+    font-size: 12px;
+    font-weight: bold;
+    opacity: 0.8;
+    text-align: center;
+}
+@keyframes yvan{
+    0%{
+    filter: brightness(30%);
+    }
+   50% {
+    filter:brightness(70%);
+    transition: 0.4s;
+   }
+   100%{
+      filter: brightness(50%);
+   }
+   
+}
+.foot1 {
+    display: flex;
+    font-weight: bold;
+    color: black;
+    background: rgba(255, 255, 255,0.9);
+    border-radius: 25px;
+    padding: 15px;
+    width: 48%;
+    margin-top: 50px;
+}
+.foot1 img{
+    width: 60px;
+    height: 60px;
+    margin-right: 20px;
+}
+.foot{
+    display: flex;
+    justify-content: space-between;
+    margin-top: -30px;
+    align-items: center;
+    height: auto;
+}
+.foot2 h2{
+    font-size: 25px;
+    font-weight: bolder;
+    margin-bottom: 25px;
+}
+footer{
+   background: rgb(228, 227, 227);
+}
+
+
+@media screen and (max-width:700px) {
+    .bab , .logo {
+      display: none !important;
+    }
+}
